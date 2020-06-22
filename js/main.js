@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-    fetch('../js/interns.js')
+    fetch('js/interns.js')
         .then(function (response) {
             return response.json();
         })
